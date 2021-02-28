@@ -1,0 +1,1 @@
+12 4 */2 * * root /usr/bin/certbot renew --pre-hook "/usr/local/bin/certbot_zimbra.sh -p" --deploy-hook "/usr/local/bin/certbot_zimbra.sh -d"
